@@ -49,7 +49,7 @@ class ViewController: UIViewController, WKUIDelegate, WKScriptMessageHandler, WK
         view.addSubview(webView)
         
         // Set this to the URL of your group
-        let myURL = URL(string: "https://d4077554.ngrok.io/clickwrap-dev-ios-demo.html")
+        let myURL = URL(string: "<https://clickwrap.url.here>")
         let myRequest = URLRequest(url: myURL!)
         
         // Clear the cached data
